@@ -515,3 +515,16 @@ input:valid~.auth-label {
 .register-form-style .align-items-auth .auth-btn-style:hover {
     background-color: var(--text-accent);
 }
+
+.steps-text-block{
+    width: 300px;
+}
+
+.steps-title-block {
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.steps-title-block span{
+    color: var(--text-accent);
+}
