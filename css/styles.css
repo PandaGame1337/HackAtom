@@ -146,7 +146,7 @@ header{
     background-color: #f4f4f4;
 }
 
-.stats-block-title h2{
+.block-title h2{
     font-size: 32px;
     text-align: center;
     color: var(--text-color);
@@ -204,5 +204,9 @@ header{
     height: 200px;
     align-items: center;
     text-align: center;
-    
+}
+
+.direction-row{
+    display: flex;
+    justify-content: space-between;
 }
