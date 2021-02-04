@@ -27,6 +27,10 @@ li{
     list-style: none;
 }
 
+header{
+    background-color: #f4f4f4;
+}
+
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -89,7 +93,7 @@ li{
 
 .btn-login{
     padding: 8px;
-    background-color: #fff;
+    background-color: #f4f4f4;
     color: var(--text-color);
     border: solid 1px var(--text-accent);
     text-decoration: none;
@@ -101,21 +105,68 @@ li{
 
 }
 
-.baner{
-    margin: 30px 0 0 30px;
-    height: 400px;
+.banner{
+    display: flex;
+    justify-content: space-between;
 }
 
-.baner-text-title{
+.banner-text-title{
     font-size: 48px;
     color: var(--text-color);
     font-weight: 600;
     line-height: 56px;
+    margin-left: 2px;
+    margin-bottom: 45px;
 }
 
-.baner-text-title span{
+.banner-text-title span{
     font-size: 48px;
     color: var(--text-accent);
     font-weight: 600;
 }
 
+.btn-baner{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: var(--text-accent);
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+.btn-baner:hover{
+    padding: 10px 30px;
+    color: var(--text-color);
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--text-accent);
+    text-decoration: none;
+}
+
+.stats{
+    background-color: #f4f4f4;
+}
+
+.stats-block-title h2{
+    font-size: 32px;
+    text-align: center;
+    color: var(--text-color);
+    padding: 20px 0;
+}
+
+.stats-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-block-center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-block-center-left{
+    border: 1px solid var(--text-color);
+}
+
+.stats-block-center-right{
+    border: 1px solid var(--text-color);
+}
