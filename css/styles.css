@@ -1,5 +1,5 @@
 :root {
-    --text-color:#40514E;
+    --text-color:#515151;
     --text-accent: #2F89FC;
 }
 
@@ -127,8 +127,7 @@ header{
     color: var(--text-color);
     font-weight: 600;
     line-height: 56px;
-    margin-left: 2px;
-    margin-bottom: 45px;
+    margin: 20px 0 30px 2px;
 }
 
 .banner-text-title span{
@@ -142,7 +141,7 @@ header{
     color: #fff;
     background-color: var(--text-accent);
     border-radius: 5px;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 .btn-banner:hover{
@@ -168,7 +167,7 @@ header{
 .stats-block{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 
 .stats-block-text{
@@ -475,4 +474,44 @@ input:valid~.auth-label {
     color: var(--text-color);
     text-align: center;
     margin: 20px 0 40px 0;
+}
+
+.register-form-style {
+    width: 550px;
+    height: 550px;
+    margin: 150px auto;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+
+.register-form-style .align-items-auth {
+    text-align: center;
+}
+
+.register-form-style .align-items-auth .auth-img {
+    margin: 50px 12px 0 0;
+}
+
+.register-form-style .align-items-auth .auth-input-style {
+    width: 400px;
+    margin: 30px 0;
+}
+
+.register-form-style .align-items-auth .auth-btn-style {
+    background: var(--text-accent);
+    border: none;
+    padding: 10px 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.register-form-style .align-items-auth .auth-btn-style:focus {
+    outline: none;
+}
+
+.register-form-style .align-items-auth .auth-btn-style:hover {
+    background-color: var(--text-accent);
 }
