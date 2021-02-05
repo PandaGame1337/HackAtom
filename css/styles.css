@@ -114,7 +114,6 @@ header{
     box-shadow: 0 0 4px 1px var(--text-accent);
     color: var(--text-color);
     text-decoration: none;
-
 }
 
 .banner{
@@ -516,15 +515,30 @@ input:valid~.auth-label {
     background-color: var(--text-accent);
 }
 
-.steps-text-block{
-    width: 300px;
+.user-block{
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 5px;
 }
 
-.steps-title-block {
-    font-size: 30px;
+.user-name{
+    margin: 12px;
     color: var(--text-color);
+    text-decoration: none;
 }
 
-.steps-title-block span{
-    color: var(--text-accent);
+.user-name p:hover{
+    text-decoration: none;
+}
+
+.user-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.user-profile:hover{
+    text-decoration: none;
 }
